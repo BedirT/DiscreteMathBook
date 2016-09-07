@@ -18,6 +18,140 @@ Nadide Pasali\\
 
 \newpage
 
+\textbf{Starting Question: WRITE A COMPUTER PROGRAM} 
 
+\textbf{String Dictionary}
+
+\textbf{Problem:} Create a dictionary using all the words that can be created from the letters of "Mississippi".
+
+\textbf{Tips:} Should be in alphabetical order.
+
+\textbf{Extra:} Make it user interactive so that create the dictionary based on the input.
+\\
+
+\textbf{Question:}  A computer science professor has seven \textbf{different} programming books on a bookshelf. Three of the books deal with C++, the other four with Java. In how many ways can the professor arrange these books on the shelf\\
+
+A) If there are no restrictions?
+
+B) If the languages should alternate?
+
+C) If all the C++ books must be next to each other?
+
+D) If all the C++ books must be next to each other and all the Java books must be next to each other?
+\\
+
+\textbf{Question:}  A) How many different paths are there from $(-1,2,0)$ to $(1,3,7)$ in Euclidean three-space if each move is one of the following types?
+$$(H):(x,y,z)\rightarrow(x+1,y,z);$$
+$$(V):(x,y,z)\rightarrow(x,y+1,z);$$
+$$(A):(x,y,z)\rightarrow(x,y,z+1);$$
+
+B) How many such paths are there from $(1,0,5)$ to $(8,1,7)$?
+
+C) Generalize the results in parts $(A)$ and $(B)$.
+\\
+
+\textbf{Question:} A) In how many possible ways could a student answer a 10-question true-false test?
+
+B) In how many ways can seven people be arranged about a circular table?
+\\
+
+\textbf{Question:}  Write a computer program (or develop an algorithm) to determine whether there is a three-digit integer $abc (= 100a + 10b + c)$ where $abc = a! + b! + c!$.
+\\
+
+\textbf{A word to the wise!} When dealing with any counting problem, we should ask ourselves about the importance of the order. If the order is relevence, we think in terms of permutations and arrangements and the rule of product. When order is not relevant, combination could play a key role in solving the problem.
+\\
+
+\begin{center}
+\textbf{We need to be able to distinguish}
+
+\textbf{Permutation from Combination}
+\end{center}
+
+
+\begin{center}
+\textbf{Reminder}
+\end{center}
+
+$$\sum\limits_{i = m}^{m+n}{a_i = a_m+a_{m+1}+a_{m+2}+...+a_{m+n}}$$
+$$\sum\limits_{i = 1}^5{a_i = a_1+a_2+a_3+a_4+a_5}$$
+$$\sum\limits_{i = 1}^4{a_{i^2} = a_1+a_4+a_9+a_{16}}$$
+$$\sum\limits_{i = 1}^4{\frac{1}{i} =\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1}{4}}$$
+$$\sum\limits_{i = 1}^2{a_j = a_j+a_j}$$
+\\
+
+\textbf{Question:} In a highschool classroom there are two groups of boys and girls, one of them supporting republican party, others are supporting democratic party. There are 4 girls and 6 boys who supports republican party, 2 boys and 3 girls who supports democrat party.\\
+A. In how many ways we can choose a democrat?\\
+B. In how many ways we can choose a republican?\\
+C. In how many ways we can choose a male democrat and a girl republican?\\
+\\
+
+\textbf{Example} a) Suppose that Ellen draws five cards from a standard deck of 52 cards. In how many ways can her selection result in a hand with no clubs? Here we are interested in counting all five-card selections such as\\
+i) ace of hearts, three of spades, four of spades, six of diamonds, and the jack of diamonds.\\
+ii) five of spades, seven of spades, ten of spades, seven of diamonds, and the king of diamonds.\\
+iii) two of diamonds, three of diamonds, six of diamonds, ten of diamonds, and the jack of diamonds.\\
+If we examine this more closely we see that Ellen is restricted to selecting her five cards from the 39 cards in the deck that are not clubs. Consequently, she can make her selection in 
+$\left( {\begin{array}{*{20}c}  39  \\  5  \\ \end{array}} \right)$ 
+ways.\\
+b) Now suppose we want to count the number of Ellen's five-card selections that contain at least one club. These are precisely the selections that were not counted in part (a). And since there are
+$\left( {\begin{array}{*{20}c} 52  \\ 5  \\ \end{array}} \right)$ 
+possible five-card hands in total, we find that 
+$$ \left( {\begin{array}{*{20}c} 52  \\ 5  \\ \end{array}} \right) - \left( {\begin{array}{*{20}c} 39  \\ 5  \\ \end{array}} \right) = 2,598,960 - 575,757 = 2,023,203  $$
+of all five-card hands contain at least one club.\\
+c) Can we obtain the result in part (b) in another way? For example, since Ellen wants to have at least one club in the five-card hand, let her first select a club. This she can do in () ways. And now she doesn't care what comes up for the other four cards. So after she eliminates the one club chosen from her standard deck, she can then select the other four cards in GI.) ways. Therefore, by the rule of product, we count the number of selections here as 
+$$ \left( {\begin{array}{*{20}c} 13  \\ 1  \\ \end{array}} \right) - \left( {\begin{array}{*{20}c} 51  \\ 4  \\ \end{array}} \right) = 13 \times 249,900 = 3,248,700  $$.
+Something here is definitely wrong! This answer is larger than that in part (b) by more than one million hands. Did we make a mistake in part (b)? Or is something wrong with our present reasoning?
+
+For example, suppose that Ellen first selects 
+\begin{center}
+the three of clubs
+\end{center}
+and then selects 
+\begin{center}
+the five of clubs,\\
+king of clubs,\\
+seven of hearts and,\\
+ jack of spades. 
+\end{center}
+if, however, she first selects
+\begin{center}
+the five of clubs 
+\end{center}
+and then selects 
+\begin{center}
+the three of clubs, \\
+king of clubs, \\
+seven of hearts, \\
+and jack of spades, \\
+\end{center}
+is her selection here really different from the prior selection we mentioned? Unfortu-nately, not And the case where she first selects 
+\begin{center}
+the king of clubs
+\end{center}
+and then follows this by selecting
+\begin{center}
+the three of clubs,\\
+five of clubs,\\
+seven of hearts, \\
+and jack of spades \\
+\end{center}
+is not different from the other two selections mentioned earlier. Consequently, this approach is wrong because we are overcounting — by considering like selections as if they were distinct. 
+\\
+
+EDIT
+\textbf{There is one more statement here if you want we can add}
+\\
+
+\begin{center}
+1\\1 1\\1 2 1\\1 3 3 1\\1 4 6 4 1\\1 5 10 10 5 1\\1 6 15 20 15 6 1\\
+\end{center}
+
+\textbf{Theorem} - \textbf{The Binomial Theorem}
+$$\left({x+y}\right)^n = \left( {\begin{array}{*{20}c} n  \\ 0  \\ \end{array}} \right) x^0 y^n +  \left( {\begin{array}{*{20}c} n  \\ 1  \\ \end{array}} \right) x^1 y^{n-1} + \left( {\begin{array}{*{20}c} n  \\ 2 \\ \end{array}} \right) x^2 y^{n-2} + ... + \left( {\begin{array}{*{20}c} n  \\ n \\ \end{array}} \right) x^n y^0$$
+
+$$= \sum\limits_{k = 0}^n {\left( {\begin{array}{*{20}c} n  \\ k  \\ \end{array}} \right) x^k y^{n-k}}$$
+\\
+
+\textbf{Question: } Find the coefficient of $a^5b^2$ in the expansion of $\left(2a-3b\right)^7$
 
 \end{document}
+
