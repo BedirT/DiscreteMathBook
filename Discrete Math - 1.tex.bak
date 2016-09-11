@@ -211,8 +211,19 @@ IMPROVE VERBAL
 \\
 
 \textbf{Question: }  There are 10 bananas. How can you distrubute these to 3 ladies and 4 gentilman with following conditions?
+\par
+\textbf{A.} All ladies will get at least 1 banana.
 
+\textbf{B.} Sum of all ladies will be greater than sum of all gentilmans?
 \\
+
+\textbf{Question: } $y_1 + ... + y_6 = 10$ , how many possibelities for $y$ values?
+\\
+
+\textbf{Question: } $0 \leq y_1 + ... + y_5 \leq 10$ , how many possibelities for $y$ values?
+\\
+
+\textbf{Formula: } $$\left( {\begin{array}{*{20}c} n \\ n \\ \end{array}} \right) +  \left( {\begin{array}{*{20}c} n+1 \\ n \\ \end{array}} \right) + ... +  \left( {\begin{array}{*{20}c} n+m \\ n \\ \end{array}} \right) =  \left( {\begin{array}{*{20}c} n+m+1 \\ n+1 \\ \end{array}} \right)$$
 
 
 \end{document}
