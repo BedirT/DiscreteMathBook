@@ -21,13 +21,17 @@ Nadide Pasali\\
 \textbf{Starting Question: WRITE A COMPUTER PROGRAM} 
 \textbf{BALL DICTIONARY}
 
-\textbf{Problem:} There are 11 balls on a bench. All the balls are marked with a letter. Starting from the left side the letters are 'M', 'I', 'S', 'S', 'I', 'S', 'S', 'I', 'P', 'P', 'I'. We want to create a dictionary with all the possible words that we can create with these balls. %Create a dictionary using all the words that can be created from the letters of "Mississippi".
- \textbf{PS:} Dictionary is alphabetically ordered, and no words repeat the other. %Bedir-Done
+\textbf{Problem:} There are 11 balls on a bench. All the balls are marked with a letter. 
+Starting from the left side the letters are 'M', 'I', 'S', 'S', 'I', 'S', 'S', 'I', 'P', 'P', 'I'. We want to 
+create a dictionary with all the possible words that we can create with these balls. %Create a dictionary using all the words that can be created from the letters of "Mississippi".
+ \textbf{PS:} Dictionary is alphabetically ordered, and no words repeat the other. %Bedir- Done
 
 \textbf{Extra:} Make it user interactive, create the dictionary based on the input.
 \\
 
-\textbf{Question:}  A computer science professor has seven \textbf{different} programming books on a bookshelf. Three of the books deal with C++, the other four with Java. In how many ways can the professor arrange these books on the shelf\\  %Nadide
+\textbf{Question:}  A computer science professor has seven \textbf{different} programming 
+books on a bookshelf. Three of the books deal with C++, the other four with Java. In how 
+many ways can the professor arrange these books on the shelf\\  %Nadide
 
 A) If there are no restrictions?
 
@@ -48,15 +52,21 @@ B) How many such paths are there from $(1,0,5)$ to $(8,1,7)$?
 C) Generalize the results in parts $(A)$ and $(B)$.
 \\
 
-\textbf{Question:} A) There are two boxes, and 10 identical balls. Student will throw the ball into the boxes. In every throw he is able to put the ball inside one of the boxes. There is no rule for him to place the ball in which box. In how many ways can he throw the balls inside of the boxes %In how many possible ways could a student answer a 10-question true-false test? %Bedir
+\textbf{Question:} A) There are two boxes, and 10 identical balls. Student will throw the 
+ball into the boxes. In every throw he is able to put the ball inside one of the boxes. There 
+is no rule for him to place the ball in which box. In how many ways can he throw the balls 
+inside of the boxes %In how many possible ways could a student answer a 10-question true-false test? 
 
-B) In how many ways can seven people be arranged about a circular table?
-\\
+B) In how many ways can seven different colored ball be arranged about a circular table? 
+\\ %Bedir
 
 \textbf{Question:}  Write a computer program (or develop an algorithm) to determine whether there is a three-digit integer $abc (= 100a + 10b + c)$ where $abc = a! + b! + c!$.
 \\ %Nadide
 
-\textbf{A word to the wise!} When dealing with any counting problem, we should ask ourselves about the importance of the order. If the order is relevence, we think in terms of permutations and arrangements and the rule of product. When order is not relevant, combination could play a key role in solving the problem.
+\textbf{A word to the wise!} When dealing with any counting problem, we should ask 
+ourselves about the importance of the order. If the order is relevence, we think in terms of 
+permutations and arrangements and the rule of product. When order is not relevant, 
+combination could play a key role in solving the problem.
 \\
 
 \begin{center}
@@ -77,25 +87,42 @@ $$\sum\limits_{i = 1}^4{\frac{1}{i} =\frac{1}{1}+\frac{1}{2}+\frac{1}{3}+\frac{1
 $$\sum\limits_{i = 1}^2{a_j = a_j+a_j}$$
 \\
 
-\textbf{Question:} In a highschool classroom there are two groups of boys and girls, one of them supporting republican party, others are supporting democratic party. There are 4 girls and 6 boys who supports republican party, 2 boys and 3 girls who supports democrat party.\\ %Yolal
+\textbf{Question:} In a highschool classroom there are two groups of boys and girls, one of 
+them supporting republican party, others are supporting democratic party. There are 4 girls 
+and 6 boys who supports republican party, 2 boys and 3 girls who supports democrat 
+party.\\ %Yolal
 A. In how many ways we can choose a democrat?\\
 B. In how many ways we can choose a republican?\\
 C. In how many ways we can choose a male democrat and a girl republican?\\
 \\
 
-\textbf{Example} a) Suppose that Ellen draws five cards from a standard deck of 52 cards. In how many ways can her selection result in a hand with no clubs? Here we are interested in counting all five-card selections such as\\
-i) ace of hearts, three of spades, four of spades, six of diamonds, and the jack of diamonds.\\
-ii) five of spades, seven of spades, ten of spades, seven of diamonds, and the king of diamonds.\\
-iii) two of diamonds, three of diamonds, six of diamonds, ten of diamonds, and the jack of diamonds.\\
-If we examine this more closely we see that Ellen is restricted to selecting her five cards from the 39 cards in the deck that are not clubs. Consequently, she can make her selection in 
+\textbf{Example} a) Suppose that Ellen draws five cards from a standard deck of 52 cards. 
+In how many ways can her selection result in a hand with no clubs? Here we are 
+interested in counting all five-card selections such as\\
+i) ace of hearts, three of spades, four of spades, six of diamonds, and the jack of 
+diamonds.\\
+ii) five of spades, seven of spades, ten of spades, seven of diamonds, and the king of 
+diamonds.\\
+iii) two of diamonds, three of diamonds, six of diamonds, ten of diamonds, and the jack of 
+diamonds.\\
+If we examine this more closely we see that Ellen is restricted to selecting her five cards 
+from the 39 cards in the deck that are not clubs. Consequently, she can make her 
+selection in 
 $\left( {\begin{array}{*{20}c}  39  \\  5  \\ \end{array}} \right)$ 
 ways.\\
-b) Now suppose we want to count the number of Ellen's five-card selections that contain at least one club. These are precisely the selections that were not counted in part (a). And since there are
+b) Now suppose we want to count the number of Ellen's five-card selections that contain 
+at least one club. These are precisely the selections that were not counted in part (a). And 
+since there are
 $\left( {\begin{array}{*{20}c} 52  \\ 5  \\ \end{array}} \right)$ 
 possible five-card hands in total, we find that 
 $$ \left( {\begin{array}{*{20}c} 52  \\ 5  \\ \end{array}} \right) - \left( {\begin{array}{*{20}c} 39  \\ 5  \\ \end{array}} \right) = 2,598,960 - 575,757 = 2,023,203  $$
 of all five-card hands contain at least one club.\\
-c) Can we obtain the result in part (b) in another way? For example, since Ellen wants to have at least one club in the five-card hand, let her first select a club. This she can do in () ways. And now she doesn't care what comes up for the other four cards. So after she eliminates the one club chosen from her standard deck, she can then select the other four cards in GI.) ways. Therefore, by the rule of product, we count the number of selections here as 
+c) Can we obtain the result in part (b) in another way? For example, since Ellen wants to 
+have at least one club in the five-card hand, let her first select a club. This she can do in () 
+ways. And now she doesn't care what comes up for the other four cards. So after she 
+eliminates the one club chosen from her standard deck, she can then select the other four 
+cards in GI.) ways. Therefore, by the rule of product, we count the number of selections 
+here as 
 $$ \left( {\begin{array}{*{20}c} 13  \\ 1  \\ \end{array}} \right) - \left( {\begin{array}{*{20}c} 51  \\ 4  \\ \end{array}} \right) = 13 \times 249,900 = 3,248,700  $$.
 Something here is definitely wrong! This answer is larger than that in part (b) by more than one million hands. Did we make a mistake in part (b)? Or is something wrong with our present reasoning?
 
@@ -184,22 +211,22 @@ Telescoping
 \textbf{Question: }  $a+b+c = 100$ , c is even , $a,b,c \geq 0$. How many different ways you can choose a,b,c,d?
 \\ %Nadide
 
-\textbf{Question: }  $p+5n = 100$ , count? How many different ways you can choose p and n?
+\textbf{Question: }  We have one dollar. We want to broke it to pennies and nickels. How many different ways can we do this operation?
 \\ %Yolal
 
-\textbf{Question: }  $p+5n+10d = 100$. How many different ways you can choose p,n,d?
+\textbf{Question: }  We have one dollar. We want to broke it to pennies, nickels, and dimes. How many different ways can we do this operation?
 \\ %Bedir
 
 IMPROVE VERBAL
 \\
 
-\textbf{Homework: } Come up with the formula for $p+n+d+q$.
+\textbf{Homework: } We have one dollar. We want to broke it to pennies, nickels, dimes, and quarters. How many different ways can we do this operation? Come up with a formula for it. $p+n+d+q$.
 \\ %Nadide
 
 \textbf{Question: }  There are 7 oranges. How can you distrubute these to 3 ladies ?
 \\ %Yolal
 
-\textbf{Question: }  There are 7 oranges and 6 bananas. How can you distrubute these to 3 ladies ?
+\textbf{Question: }  There are 7 orange balls and 6 yellow balls. How can you distrubute these balls to 3 ladies ?
 \\ %Bedir
 
 \textbf{Question: }  There are 10 oranges. How can you distrubute these to 3 ladies and 4 gentilman ?
@@ -208,11 +235,11 @@ IMPROVE VERBAL
 \textbf{Question: }  There are 10 oranges and 7 bananas. How can you distrubute these to 3 ladies and 4 gentilman ?
 \\ %Yolal
 
-\textbf{Question: }  There are 10 bananas. How can you distrubute these to 3 ladies and 4 gentilman with following conditions?
+\textbf{Question: }  There are 10 yellow balls. How can you distrubute these to 3 ladies and 4 gentilman with following conditions?
 \par %Bedir
-\textbf{A.} All ladies will get at least 1 banana.
+\textbf{A.} All ladies will get at least 1 ball.
 
-\textbf{B.} Sum of all ladies will be greater than sum of all gentilmans?
+\textbf{B.} Sum of the balls that all ladies get will be greater than sum of the balls that all gentilmans get?
 \\
 
 \textbf{Question: } $y_1 + ... + y_6 = 10$ , how many possibelities for $y$ values?
@@ -221,7 +248,10 @@ IMPROVE VERBAL
 \textbf{Question: } $0 \leq y_1 + ... + y_5 \leq 10$ , how many possibelities for $y$ values?
 \\ %Yolal
 
-\textbf{Formula: } $$\left( {\begin{array}{*{20}c} n \\ n \\ \end{array}} \right) +  \left( {\begin{array}{*{20}c} n+1 \\ n \\ \end{array}} \right) + ... +  \left( {\begin{array}{*{20}c} n+m \\ n \\ \end{array}} \right) =  \left( {\begin{array}{*{20}c} n+m+1 \\ n+1 \\ \end{array}} \right)$$
+\textbf{Formula: } $$\left( {\begin{array}{*{20}c} n \\ n \\ \end{array}} \right) +  \left( 
+{\begin{array}{*{20}c} n+1 \\ n \\ \end{array}} \right) + ... +  \left( {\begin{array}{*{20}c} n+m 
+\\ n \\ \end{array}} \right) =  \left( {\begin{array}{*{20}c} n+m+1 \\ n+1 \\ \end{array}} 
+\right)$$
 
 
 \end{document}
