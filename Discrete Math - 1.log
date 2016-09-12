@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  11 SEP 2016 18:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 SEP 2016 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -215,6 +215,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--266
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
 [9] (./Discrete Math - 1.aux) ) 
 Here is how much of TeX's memory you used:
  221 strings out of 493014
@@ -234,7 +254,7 @@ amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on "Discrete Math - 1.pdf" (9 pages, 115618 bytes).
+Output written on "Discrete Math - 1.pdf" (9 pages, 117332 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  49 compressed objects within 1 object stream
